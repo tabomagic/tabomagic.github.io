@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab-O-Magic - Take Control of Your Tabs</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+  <style>
+    /* Custom styles */
+    .hero-bg {
+      background-image: linear-gradient(to right, #3b82f6, #0284c7);
+    }
+
+    .feature-card {
+      background-color: #f3f4f6;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-blue-500 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-xl font-bold">Tab-O-Magic</a>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:text-gray-300">Features</a></li>
+          <li><a href="#screenshots" class="hover:text-gray-300">Screenshots</a></li>
+          <li><a href="#download" class="hover:text-gray-300">Download</a></li>
+          <li><a href="#about" class="hover:text-gray-300">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-bg text-white py-20">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Take Control of Your Tabs</h1>
+        <p class="text-xl mb-8">Tab-O-Magic makes it easy to manage and organize your open tabs.</p>
+        <a href="#download" class="bg-white text-blue-500 px-6 py-3 rounded-full hover:bg-gray-200">Download Now</a>
+      </div>
+    </section>
+
+    <section id="features" class="py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Key Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="feature-card p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Consolidated Tab View</h3>
+            <p>See all your open tabs in one place, organized by site, window, or group.</p>
+          </div>
+          <div class="feature-card p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Quick Tab Management</h3>
+            <p>Close tabs or entire groups with a single click, and rearrange tabs as needed.</p>
+          </div>
+          <div class="feature-card p-6 rounded-lg">
+            <h3 class="text-xl font-bold mb-4">Powerful Search</h3>
+            <p>Quickly find the exact tab you're looking for with the powerful search function.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="bg-gray-100 py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Screenshots</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <img src="/api/placeholder/800/600" alt="Screenshot 1" class="rounded-lg shadow-lg">
+          <img src="/api/placeholder/800/600" alt="Screenshot 2" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Download Tab-O-Magic</h2>
+        <a href="#" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600">Get it for Chrome</a>
+      </div>
+    </section>
+
+    <section id="about" class="bg-gray-100 py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">About Tab-O-Magic</h2>
+        <p>Tab-O-Magic is a powerful Chrome extension that helps you take control of your open tabs. With its intuitive interface and advanced features, you can easily manage and organize your tabs, boost your productivity, and never lose track of the tab you need.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-500 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Tab-O-Magic. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
